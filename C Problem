@@ -1,0 +1,11 @@
+#include <stdio.h>  // Include standard input-output library
+
+int main()          // Main function where the program execution starts
+{
+    double A, R;    // Declare double-precision floating-point variables A and R
+    scanf("%lf", &R);  // Read a double value from the user and store it in R
+    A = 3.14159 * R * R;  // Calculate the area of the circle using the formula πR^2
+    printf("A=%.4lf\n", A);  // Print the calculated area with four decimal places
+    
+    return 0;       // Return 0 to indicate successful execution
+}
